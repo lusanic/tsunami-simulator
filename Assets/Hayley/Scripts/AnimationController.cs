@@ -26,7 +26,7 @@ public class AnimationController : MonoBehaviour
     {
         if (pressed)
         {
-            progressBar.value += Time.deltaTime * 10 / 25;
+            progressBar.value += Time.deltaTime * 10 / 18;
         }
         if (stageOne && plateAnim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
         {
