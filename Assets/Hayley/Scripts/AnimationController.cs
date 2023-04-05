@@ -107,6 +107,7 @@ public class AnimationController : MonoBehaviour
     private void ResetAnim()
     {
         simulationButtonText.text = "Add Force";
+        animBoolScript.enoughForce = false;
         arrowAnim.SetBool("StageTwo", false);
         arrowAnim.Rebind();
         arrowAnim.Update(0f);
@@ -117,7 +118,7 @@ public class AnimationController : MonoBehaviour
         oceanAnim.Rebind();
         oceanAnim.Update(0f);
         oceanAnim.speed = 0;
-
+        stageOne = true;
         progressBar.value = 1;
     }
 }
