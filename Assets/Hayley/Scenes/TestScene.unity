@@ -301,6 +301,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fe1f2563f0567a146ba3ba66bf2e76d6, type: 2}
@@ -516,10 +520,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ocean trench earthquakes occur when two tectonic plates move towards each
-    other, and one plate is forced down below the other in a process called subduction.
-    This creates a lot of energy that builds up and is eventually released in the
-    form of an earthquake.
+  m_text: 'Two tectonic plates move towards each other, and one plate is forced down
+    below the other in a process called subduction.
+
+
+    This creates a lot of energy.
 
 '
   m_isRightToLeft: 0
@@ -744,6 +749,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1277,6 +1286,10 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f1c838d86c376e49ac6dac8ef081c33, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fe1f2563f0567a146ba3ba66bf2e76d6, type: 2}
@@ -1543,9 +1556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The waves can travel across the ocean and get larger as they approach land.
-    When they reach shallow water near the coast, the bottom of the wave slows down,
-    causing the top of the wave to rise up and form a towering wall of water.
+  m_text: The earthquake causes the seafloor to move up or down, generating a tsunami.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
   m_sharedMaterial: {fileID: -4207534331319973599, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
@@ -2078,11 +2089,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'When the wall of water hits the coast, it can cause widespread destruction.
-    The water can flood buildings, knock down trees, and move cars and other heavy
-    objects.
-
-'
+  m_text: 'The waves can travel across the ocean and get larger as they approach
+    land. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
   m_sharedMaterial: {fileID: -4207534331319973599, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
@@ -2566,7 +2574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -2771,9 +2778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The earthquake can cause the seafloor to move up or down, which can generate
-    a tsunami. A tsunami is a series of waves that can travel across the ocean at
-    high speeds.
+  m_text: 'The energy is eventually released in the form of an earthquake.
 
 '
   m_isRightToLeft: 0
@@ -2925,9 +2930,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tsunamis can also cause dangerous currents in the water that can drag people
-    out to sea, making it important to move to higher ground and away from the coast
-    as soon as possible.
+  m_text: When they reach shallow water near the coast, the bottom of the wave slows
+    down, causing the top of the wave to rise up and form a towering wall of water.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
   m_sharedMaterial: {fileID: -4207534331319973599, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
