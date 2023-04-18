@@ -19,6 +19,7 @@ public class AnimationController : MonoBehaviour
 
     public EnoughForce animBoolScript;
     public TMP_Text simulationButtonText;
+    public Reseter res;
 
     // Start is called before the first frame update
     void Start()
@@ -96,6 +97,7 @@ public class AnimationController : MonoBehaviour
         }
         else
         {
+            res.canReset = false;
             oceanAnim.speed = .5f;
             arrowAnim.speed = .5f;
             plateAnim.speed = .5f;
@@ -107,6 +109,7 @@ public class AnimationController : MonoBehaviour
     private void ResetAnim()
     {
         simulationButtonText.text = "Add Force";
+        res.canReset = true;
         animBoolScript.enoughForce = false;
         arrowAnim.SetBool("StageTwo", false);
         arrowAnim.Rebind();
