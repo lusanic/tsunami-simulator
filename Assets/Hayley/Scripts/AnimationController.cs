@@ -10,7 +10,9 @@ public class AnimationController : MonoBehaviour
     public Animator plateAnim;
     public Animator oceanAnim;
     public Animator arrowAnim;
-    public Animator cursorAnim;
+    public Animator cursorAnim; 
+
+    public float forceDuration = 7.11f;
 
     public Button simulateButton;
     public Slider progressBar;
@@ -36,7 +38,7 @@ public class AnimationController : MonoBehaviour
         
         if (pressed)
         {
-            progressBar.value += Time.deltaTime * 10 / 7.11f;
+            progressBar.value += Time.deltaTime * 10 / forceDuration;
         }
         //if (stageOne && plateAnim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
         //{
@@ -105,8 +107,9 @@ public class AnimationController : MonoBehaviour
             oceanAnim.speed = .5f;
             arrowAnim.speed = .5f;
             plateAnim.speed = .5f;
-            arrowAnim.SetBool("StageTwo", true);
             oceanAnim.enabled = true;
+            arrowAnim.SetBool("StageTwo", true);
+            
         }
     }
 
