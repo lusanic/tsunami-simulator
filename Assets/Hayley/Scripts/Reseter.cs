@@ -7,6 +7,7 @@ public class Reseter : MonoBehaviour
 {
     public float resetCoolDown;
     public bool canReset;
+    public DragRotate rotator;
     float t;
 
     // Start is called before the first frame update
@@ -33,6 +34,14 @@ public class Reseter : MonoBehaviour
 
     public void Reset()
     {
+        //canReset = false;
+        rotator.buttonPressed = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Unselect()
+    {
+        rotator.buttonPressed = false;
+        
     }
 }

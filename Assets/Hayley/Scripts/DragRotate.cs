@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DragRotate : MonoBehaviour
 {
+    public bool buttonPressed;
     Vector3 mPrevPos = Vector3.zero;
     Vector3 mPosDelta = Vector3.zero; 
     // Start is called before the first frame update
@@ -15,7 +16,7 @@ public class DragRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !buttonPressed)
         {
             mPosDelta = Input.mousePosition - mPrevPos;
             //if(Vector3.Dot(transform.up, Vector3.up) >= 0)

@@ -7,6 +7,7 @@ public class CameraSwitch : MonoBehaviour
     [Header("Cameras")]
     public GameObject mainCam;
     public GameObject firstPersonCam;
+    public DragRotate rotator;
 
     [Header("Checkers")]
     public bool inFirstPerson;
@@ -25,6 +26,7 @@ public class CameraSwitch : MonoBehaviour
 
     public void SwitchCamera()
     {
+        rotator.buttonPressed = true;
         if (!inFirstPerson)
         {
             mainCam.SetActive(false);
@@ -37,5 +39,10 @@ public class CameraSwitch : MonoBehaviour
             firstPersonCam.SetActive(false);
             inFirstPerson = false;
         }
+    }
+
+    public void Unselect()
+    {
+        rotator.buttonPressed = false;
     }
 }

@@ -20,6 +20,7 @@ public class AnimationController : MonoBehaviour
     public EnoughForce animBoolScript;
     public TMP_Text simulationButtonText;
     public Reseter res;
+    public DragRotate rotator;
 
     // Start is called before the first frame update
     void Start()
@@ -64,6 +65,7 @@ public class AnimationController : MonoBehaviour
     public void StartAnim()
     {
         pressed = true;
+        rotator.buttonPressed = true;
         if (!plateAnim.isActiveAndEnabled)
         {
             plateAnim.enabled = true;
@@ -89,6 +91,7 @@ public class AnimationController : MonoBehaviour
     public void PauseAnim()
     {
         pressed = false;
+        rotator.buttonPressed = false;
         if (stageOne)
         {
             plateAnim.speed = 0;
