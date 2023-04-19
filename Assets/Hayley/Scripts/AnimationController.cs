@@ -10,6 +10,8 @@ public class AnimationController : MonoBehaviour
     public Animator plateAnim;
     public Animator oceanAnim;
     public Animator arrowAnim;
+    public Animator arrowAnim2;
+    public Animator arrowAnim3;
     public Animator cursorAnim; 
 
     public float forceDuration = 7.11f;
@@ -73,6 +75,7 @@ public class AnimationController : MonoBehaviour
         {
             plateAnim.enabled = true;
             arrowAnim.enabled = true;
+            arrowAnim2.enabled = true;
         }
         else
         {
@@ -105,10 +108,15 @@ public class AnimationController : MonoBehaviour
         {
             res.canReset = false;
             oceanAnim.speed = .5f;
-            arrowAnim.speed = .5f;
+            //arrowAnim.speed = .5f;
+            arrowAnim.transform.gameObject.SetActive(false);
+            arrowAnim2.transform.gameObject.SetActive(false);
+            arrowAnim.enabled = false;
+            arrowAnim2.enabled = false;
+            arrowAnim3.enabled = true;
             plateAnim.speed = .5f;
             oceanAnim.enabled = true;
-            arrowAnim.SetBool("StageTwo", true);
+            //arrowAnim.SetBool("StageTwo", true);
             
         }
     }

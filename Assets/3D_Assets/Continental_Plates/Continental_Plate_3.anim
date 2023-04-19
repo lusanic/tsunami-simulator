@@ -1871,14 +1871,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.6666665
+  - time: 5.3
     functionName: Text1FadeOut
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.8
+  - time: 5.4333334
     functionName: Enough
     data: 
     objectReferenceParameter: {fileID: 0}
