@@ -10,6 +10,7 @@ public class AnimationController : MonoBehaviour
     public Animator plateAnim;
     public Animator oceanAnim;
     public Animator arrowAnim;
+    public Animator cursorAnim;
 
     public Button simulateButton;
     public Slider progressBar;
@@ -25,7 +26,7 @@ public class AnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(StartCursorAnim());
     }
 
     
@@ -126,5 +127,11 @@ public class AnimationController : MonoBehaviour
         oceanAnim.speed = 0;
         stageOne = true;
         progressBar.value = 1;
+    }
+
+    IEnumerator StartCursorAnim()
+    {
+        yield return new WaitForSeconds(5f);
+        cursorAnim.enabled = true;
     }
 }

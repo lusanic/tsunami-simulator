@@ -5,6 +5,7 @@ using UnityEngine;
 public class DragRotate : MonoBehaviour
 {
     public bool buttonPressed;
+    public Animator cursorAnim;
     Vector3 mPrevPos = Vector3.zero;
     Vector3 mPosDelta = Vector3.zero; 
     // Start is called before the first frame update
@@ -18,6 +19,10 @@ public class DragRotate : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && !buttonPressed)
         {
+
+            cursorAnim.gameObject.SetActive(false);
+            cursorAnim.enabled = false;
+
             mPosDelta = Input.mousePosition - mPrevPos;
             //if(Vector3.Dot(transform.up, Vector3.up) >= 0)
             //{
