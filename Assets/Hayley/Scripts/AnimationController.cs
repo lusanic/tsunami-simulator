@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
+
 public class AnimationController : MonoBehaviour
 {
     [Header("References")]
@@ -27,6 +29,10 @@ public class AnimationController : MonoBehaviour
     public TMP_Text simulationButtonText;
     public Reseter res;
     public DragRotate rotator;
+
+    public GameObject thirdPerson;
+    public GameObject firstPerson;
+
 
     // Start is called before the first frame update
     void Start()
@@ -116,6 +122,9 @@ public class AnimationController : MonoBehaviour
         }
         else
         {
+            firstPerson.SetActive(true);
+            rotator.enabled = false;
+            cursorAnim.enabled = false;
             res.canReset = false;
             oceanAnim.speed = .5f;
             //arrowAnim.speed = .5f;
@@ -133,6 +142,8 @@ public class AnimationController : MonoBehaviour
 
     private void ResetAnim()
     {
+        rotator.enabled = true;
+        firstPerson.SetActive(false);
         simulationButtonText.text = "Add Force";
         res.canReset = true;
         animBoolScript.enoughForce = false;
