@@ -12,7 +12,8 @@ public class AnimationController : MonoBehaviour
     public Animator arrowAnim;
     public Animator arrowAnim2;
     public Animator arrowAnim3;
-    public Animator cursorAnim; 
+    public Animator cursorAnim;
+    public Animator sliderAnim;
 
     public float forceDuration = 7.11f;
 
@@ -71,6 +72,14 @@ public class AnimationController : MonoBehaviour
     {
         pressed = true;
         rotator.buttonPressed = true;
+        if (!sliderAnim.isActiveAndEnabled)
+        {
+            sliderAnim.enabled = true;
+        }
+        else
+        {
+            sliderAnim.speed = 1;
+        }
         if (!plateAnim.isActiveAndEnabled)
         {
             plateAnim.enabled = true;
@@ -103,6 +112,7 @@ public class AnimationController : MonoBehaviour
             plateAnim.speed = 0;
             arrowAnim.speed = 0;
             oceanAnim.speed = 0;
+            sliderAnim.speed = 0;
         }
         else
         {

@@ -1170,12 +1170,12 @@ RectTransform:
   m_Children:
   - {fileID: 2009076119}
   m_Father: {fileID: 2016082036}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 256, y: 161}
-  m_SizeDelta: {x: 113.3464, y: 50}
+  m_AnchoredPosition: {x: 310, y: 161}
+  m_SizeDelta: {x: 113, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505256409
 MonoBehaviour:
@@ -1524,6 +1524,7 @@ MonoBehaviour:
   arrowAnim2: {fileID: 1953353450}
   arrowAnim3: {fileID: 247318270}
   cursorAnim: {fileID: 1388975433}
+  sliderAnim: {fileID: 884484239}
   forceDuration: 5.81
   simulateButton: {fileID: 1464498025}
   progressBar: {fileID: 884484237}
@@ -1894,7 +1895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 162, y: -177}
+  m_AnchoredPosition: {x: 150, y: -177}
   m_SizeDelta: {x: 140, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &884484239
@@ -1905,7 +1906,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884484236}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: adc450ec638220f4185e9445053d0889, type: 2}
   m_CullingMode: 0
@@ -2465,7 +2466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1064270063
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2484,8 +2485,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 342.70932, y: -165}
-  m_SizeDelta: {x: 90.7814, y: 48}
+  m_AnchoredPosition: {x: 310, y: -177.5}
+  m_SizeDelta: {x: 113, y: 52.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1064270064
 MonoBehaviour:
@@ -3832,11 +3833,11 @@ RectTransform:
   m_Children:
   - {fileID: 1580944478}
   m_Father: {fileID: 2016082036}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: -177.5}
+  m_AnchoredPosition: {x: 144.4, y: -177.5}
   m_SizeDelta: {x: 190, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464498025
@@ -5150,8 +5151,8 @@ RectTransform:
   - {fileID: 647018300}
   - {fileID: 1947978835}
   - {fileID: 884484238}
-  - {fileID: 1464498024}
   - {fileID: 505256408}
+  - {fileID: 1464498024}
   - {fileID: 1064270063}
   - {fileID: 259811819}
   - {fileID: 1753967697}

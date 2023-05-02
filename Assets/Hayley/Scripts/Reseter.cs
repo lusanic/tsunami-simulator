@@ -36,7 +36,7 @@ public class Reseter : MonoBehaviour
     {
         //canReset = false;
         rotator.buttonPressed = true;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
     }
 
     public void Unselect()
