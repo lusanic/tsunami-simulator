@@ -1871,15 +1871,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.3
+  - time: 5.4333334
+    functionName: Enough
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.5
     functionName: Text1FadeOut
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.4333334
-    functionName: Enough
+  - time: 5.5333333
+    functionName: Text2FadeIn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
