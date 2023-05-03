@@ -35,6 +35,12 @@ public class LineEndController : MonoBehaviour
             notSeen = false;
         }
     }
+
+    private void OnDisable()
+    {
+        notSeen = true;
+    }
+
     //private void OnBecameVisible()
     //{
     //    notSeen = false;
