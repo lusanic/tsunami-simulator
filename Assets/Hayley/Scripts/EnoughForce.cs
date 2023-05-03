@@ -9,6 +9,7 @@ public class EnoughForce : MonoBehaviour
     public GameObject cursorAnim;
     public DragRotate rotator;
     public TextAnim text1, text2, text3, text4, text5;
+    public Animator canvasAnim;
     public void Enough()
     {
         enoughForce = true;
@@ -55,6 +56,7 @@ public class EnoughForce : MonoBehaviour
     public void Text5FadeIn()
     {
         rotator.enabled = false;
+        canvasAnim.enabled = true;
         firstPerson.SetActive(true);
         cursorAnim.SetActive(false);
         text5.fadeIn = true;

@@ -70,7 +70,7 @@ public class AnimationController : MonoBehaviour
         if (finished)
         {
             finished = false;
-            ResetAnim();
+            //ResetAnim();
         }
     }
 
