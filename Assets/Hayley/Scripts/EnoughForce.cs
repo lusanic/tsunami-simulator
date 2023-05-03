@@ -9,14 +9,11 @@ public class EnoughForce : MonoBehaviour
     public GameObject cursorAnim;
     public DragRotate rotator;
     public TextAnim text1, text2, text3, text4, text5;
-<<<<<<< HEAD
     public GameObject locator12, locator3, locator4, locator5;
 
     public LineRendererController lrc;
 
-=======
     public Animator canvasAnim;
->>>>>>> 6a3b1d361fed4e236df9249d3f75776e9bbb030b
     public void Enough()
     {
         enoughForce = true;
