@@ -882,13 +882,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Two tectonic plates move towards each other, and one plate is forced down
-    below the other in a process called subduction.
-
-
-    This creates a lot of energy.
-
-'
+  m_text: "Two tectonic plates move towards each other, and one plate is forced down
+    below the other in a process called subduction.\n\nThis creates a lot of energy.\n\n\n\n\u25BCAdd
+    force to the plate and \n    let the earth quake happen!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
   m_sharedMaterial: {fileID: -4207534331319973599, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
@@ -2637,7 +2633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: -180.1}
+  m_AnchoredPosition: {x: 354, y: -188}
   m_SizeDelta: {x: 69.48, y: 52.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1064270064
@@ -4156,8 +4152,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -257.8, y: -168.2}
-  m_SizeDelta: {x: 190, y: 48}
+  m_AnchoredPosition: {x: -263.8, y: -168.2}
+  m_SizeDelta: {x: 190, y: 72.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464498025
 MonoBehaviour:
@@ -5027,7 +5023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260.99997, y: 142}
+  m_AnchoredPosition: {x: -260.99997, y: 154.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1947978836
