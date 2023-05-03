@@ -5,11 +5,14 @@ using UnityEngine;
 public class EnoughForce : MonoBehaviour
 {
     public bool enoughForce;
+    public GameObject firstPerson;
+    public GameObject cursorAnim;
+    public DragRotate rotator;
     public TextAnim text1, text2, text3, text4, text5;
     public void Enough()
     {
         enoughForce = true;
-        text2.fadeIn = true;
+        //text2.fadeIn = true;
     }
 
 
@@ -51,6 +54,9 @@ public class EnoughForce : MonoBehaviour
     }
     public void Text5FadeIn()
     {
+        rotator.enabled = false;
+        firstPerson.SetActive(true);
+        cursorAnim.SetActive(false);
         text5.fadeIn = true;
     }
     public void Text5FadeOut()

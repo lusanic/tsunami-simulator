@@ -122,9 +122,7 @@ public class AnimationController : MonoBehaviour
         }
         else
         {
-            firstPerson.SetActive(true);
-            rotator.enabled = false;
-            cursorAnim.enabled = false;
+            //firstPerson.SetActive(true);
             res.canReset = false;
             oceanAnim.speed = .5f;
             //arrowAnim.speed = .5f;
