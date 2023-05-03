@@ -9,7 +9,7 @@ public class EnoughForce : MonoBehaviour
     public void Enough()
     {
         enoughForce = true;
-        text2.fadeIn = true;
+        //text2.fadeIn = true;
     }
 
 
