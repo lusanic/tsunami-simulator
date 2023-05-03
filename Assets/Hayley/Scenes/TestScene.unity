@@ -1080,7 +1080,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Two tectonic plates move towards each other, and one plate is forced down
     below the other in a process called subduction.\n\nThis creates a lot of energy.\n\n\n\n\u25BCAdd
-    force to the plate and \n    let the earth quake happen!"
+    force to the plate and \n    let the earthquake happen!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
   m_sharedMaterial: {fileID: -4207534331319973599, guid: db5d760a273e345d6b4197c981d911e6, type: 2}
@@ -1768,6 +1768,7 @@ MonoBehaviour:
   locator4: {fileID: 0}
   locator5: {fileID: 0}
   lrc: {fileID: 0}
+  canvasAnim: {fileID: 0}
 --- !u!1 &592517720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2108,7 @@ MonoBehaviour:
   locator4: {fileID: 118325941}
   locator5: {fileID: 795955404}
   lrc: {fileID: 30448307}
+  canvasAnim: {fileID: 0}
 --- !u!1001 &868548171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3203,6 +3205,7 @@ MonoBehaviour:
   locator4: {fileID: 0}
   locator5: {fileID: 0}
   lrc: {fileID: 0}
+  canvasAnim: {fileID: 0}
 --- !u!1 &1170943706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,6 +3475,7 @@ MonoBehaviour:
   locator4: {fileID: 118325941}
   locator5: {fileID: 795955404}
   lrc: {fileID: 30448307}
+  canvasAnim: {fileID: 2016082037}
 --- !u!1001 &1248239975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5667,6 +5671,7 @@ GameObject:
   - component: {fileID: 2016082035}
   - component: {fileID: 2016082034}
   - component: {fileID: 2016082033}
+  - component: {fileID: 2016082037}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5766,6 +5771,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &2016082037
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016082032}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6184f261e5deebf46be2b3abf7b0bfd3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &68697282163291878
 Transform:
   m_ObjectHideFlags: 0
