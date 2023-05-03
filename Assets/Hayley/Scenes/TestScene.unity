@@ -193,7 +193,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.09375
+        value: 0.03125
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -486,7 +486,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &118325942
 Transform:
   m_ObjectHideFlags: 0
@@ -500,7 +500,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1283359782}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 85.906, z: 0}
 --- !u!114 &118325943
 MonoBehaviour:
@@ -596,7 +596,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139420840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 3.68, z: 7.82}
+  m_LocalPosition: {x: -10.55, y: 6.12, z: 12.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -657,7 +657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &185495982
 Transform:
   m_ObjectHideFlags: 0
@@ -671,7 +671,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1283359782}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 85.906, z: 0}
 --- !u!114 &185495983
 MonoBehaviour:
@@ -1763,6 +1763,11 @@ MonoBehaviour:
   text3: {fileID: 932485366}
   text4: {fileID: 1364483538}
   text5: {fileID: 1796313125}
+  locator12: {fileID: 0}
+  locator3: {fileID: 0}
+  locator4: {fileID: 0}
+  locator5: {fileID: 0}
+  lrc: {fileID: 0}
 --- !u!1 &592517720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,7 +2000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &795955405
 Transform:
   m_ObjectHideFlags: 0
@@ -2009,7 +2014,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1283359782}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 85.906, z: 0}
 --- !u!114 &795955406
 MonoBehaviour:
@@ -2097,6 +2102,11 @@ MonoBehaviour:
   text3: {fileID: 932485366}
   text4: {fileID: 1364483538}
   text5: {fileID: 1796313125}
+  locator12: {fileID: 1989838662}
+  locator3: {fileID: 185495981}
+  locator4: {fileID: 118325941}
+  locator5: {fileID: 795955404}
+  lrc: {fileID: 30448307}
 --- !u!1001 &868548171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3188,6 +3198,11 @@ MonoBehaviour:
   text3: {fileID: 932485366}
   text4: {fileID: 1364483538}
   text5: {fileID: 1796313125}
+  locator12: {fileID: 0}
+  locator3: {fileID: 0}
+  locator4: {fileID: 0}
+  locator5: {fileID: 0}
+  lrc: {fileID: 0}
 --- !u!1 &1170943706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3452,6 +3467,11 @@ MonoBehaviour:
   text3: {fileID: 932485366}
   text4: {fileID: 1364483538}
   text5: {fileID: 1796313125}
+  locator12: {fileID: 1989838662}
+  locator3: {fileID: 185495981}
+  locator4: {fileID: 118325941}
+  locator5: {fileID: 795955404}
+  lrc: {fileID: 30448307}
 --- !u!1001 &1248239975
 PrefabInstance:
   m_ObjectHideFlags: 0
